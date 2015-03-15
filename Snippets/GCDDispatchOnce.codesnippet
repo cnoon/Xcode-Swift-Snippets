@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dispatch_once swift snippet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        struct Static { static var onceToken: dispatch_once_t = 0 }
+        dispatch_once(&amp;Static.onceToken) {
+            &lt;#closure_logic#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17361297-C603-4531-AAD4-DD7AC8021DB4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Execute a closure only a single time.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD: Dispatch Once</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
