@@ -22,6 +22,8 @@ Once you have run the installation script, you can use the snippets through the 
 
 ![Snippet Shortcuts](Screencasts/Snippet-Shortcuts.gif)
 
+> This is certainly my preferred way of using Snippets. It is much faster than browsing through the Snippet library.
+
 #### Dragging it in from the snippet library
 
 ![Snippet Library](Screencasts/Snippet-Library.gif)
