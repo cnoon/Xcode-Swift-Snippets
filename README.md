@@ -4,6 +4,7 @@ I have slowly been collecting some useful Swift snippets and I thought it would 
 
 * Singleton Pattern
 * GCD Dispatch
+* NSFileManager
 * [Snap](https://github.com/Masonry/Snap) Constraints
 
 ## Installing Snippets

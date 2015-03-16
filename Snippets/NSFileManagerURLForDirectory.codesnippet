@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>file manager url</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let fileManager = NSFileManager.defaultManager()
+let &lt;#cachesURL#&gt; = fileManager.URLsForDirectory(NSSearchPathDirectory.&lt;#CachesDirectory#&gt;, inDomains: .UserDomainMask).first! as NSURL</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>410818D0-2023-4BFF-88FB-951235F46866</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a URL to a search path directory.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSFileManager: URLForDirectory</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
